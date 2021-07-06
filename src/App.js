@@ -48,7 +48,7 @@ function App() {
   console.log(pic)
 
   formData.append("image", pic,pic.name)
-  let res = await axios.post("http://ec2-54-188-60-143.us-west-2.compute.amazonaws.com:5000/upload",formData,{
+  let res = await axios.post("https://ec2-54-188-60-143.us-west-2.compute.amazonaws.com:5000/upload",formData,{
     headers: {
       'accept': 'application/json',
       'Accept-Language': 'en-US,en;q=0.8',
