@@ -1,5 +1,13 @@
 .App {
   text-align: center;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1D1E20;
+  height:820px;
+}
+.filler{
+  height:30px;
 }
 
 .App-logo {
@@ -12,6 +20,15 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+.upload{
+  display :none;
+}
+
+.imagediv{
+  margin-top: 20px;
+  border-radius: 10px;
+}
+
 
 .App-header {
   background-color: #282c34;
